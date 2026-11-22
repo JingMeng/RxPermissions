@@ -1,11 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace 'com.tbruyelle.rxpermissions.sample'
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
         applicationId "com.tbruyelle.rxpermissions.sample"
-        minSdkVersion 14
+        minSdk 14
 
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -26,3 +27,6 @@ dependencies {
     testImplementation rootProject.ext.junit
     testImplementation rootProject.ext.mockito
 }
+
+
+

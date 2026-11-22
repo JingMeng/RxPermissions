@@ -1,9 +1,9 @@
-package com.tbruyelle.rxpermissions2.sample;
+﻿package com.tbruyelle.rxpermissions2.sample;
 
 import android.Manifest.permission;
 import android.hardware.Camera;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.util.Log;
 import android.view.SurfaceView;
 import android.widget.Toast;
